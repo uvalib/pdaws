@@ -15,7 +15,7 @@
 * limitations under the License.
 ******************************************************************************/
 
-package edu.virginia.lib.pda;
+package edu.virginia.lib.pdaws;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonAnyGetter;
