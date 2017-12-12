@@ -28,6 +28,10 @@
       <id>restlet</id>
       <url>http://maven.restlet.org/</url>
     </repository>
+    <repository>
+      <id>Repository for Oracle JDBC Driver</id>
+      <url>http://mvnrepository.com</url>
+    </repository>
   </repositories>
   
    <properties>
