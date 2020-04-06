@@ -8,7 +8,7 @@ mysql.dbname=lib_pda_test
 sirsioracle.url=jdbc\:oracle:thin:@ilstest.lib.virginia.edu:1521:sirsiprod" />
 sirsioracle.username=firehose
 sirsioracle.password=es0her1f
-sirsiws.url=http://ilstestilib.virginia.edu:8080/symws/rest/standard/lookupTitleInfo
+sirsiws.url=https://sdws07.sirsidynix.net/uvultest_ilsws/rest/standard/lookupTitleInfo
 sirsiws.clientID=SymWSTestClient
 sirsiws.queryStringPreamble=clientID\=SymWSTestClient&includeItemCategory\=true&includeShadowed\=BOTH&includeMarcHoldings\=true&marcEntryID\=949,985
 #  for test and prod
