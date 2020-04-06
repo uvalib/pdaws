@@ -9,6 +9,9 @@ WORKDIR /build
 COPY src ./src
 COPY pom.xml ./
 
+# copy the configuration file
+COPY src/main/resources/pda.properties.prod src/main/resources/pda.properties
+
 # build the tartet WAR file
 RUN mvn clean package
 
