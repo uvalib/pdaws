@@ -18,6 +18,9 @@ FROM tomcat:8.0
 # install updates
 RUN apt-get -y update
 
+# add the healthcheck
+RUN mkdir /usr/local/tomcat/webapps/healthcheck && echo "OK" > /usr/local/tomcat/webapps/healthcheck/index.html
+
 # port and run command
 EXPOSE 8080
 
