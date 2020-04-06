@@ -25,7 +25,7 @@ RUN mkdir /usr/local/tomcat/webapps/healthcheck && echo "OK" > /usr/local/tomcat
 EXPOSE 8080
 
 # copy the WAR file
-COPY --from=builder /build/target/pdaws-1.0.war /usr/local/tomcat/webapps/
+COPY --from=builder /build/target/pdaws-1.0.war /usr/local/tomcat/webapps/pdaws.war
 
 #
 # end of file
