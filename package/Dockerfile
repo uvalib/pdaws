@@ -21,6 +21,9 @@ RUN apt-get -y update
 # add the healthcheck
 RUN mkdir /usr/local/tomcat/webapps/healthcheck && echo "OK" > /usr/local/tomcat/webapps/healthcheck/index.html
 
+# copy the Oracle JDBC driver
+COPY src/main/resources/ojdbc14-10.2.0.4.0.jar /usr/local/tomcat/lib
+
 # port and run command
 EXPOSE 8080
 
